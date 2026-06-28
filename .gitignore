@@ -1,0 +1,11 @@
+# Local editor and OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Runtime files are written on target machines under ProgramData, not the repo.
+*.log
+*.tmp
+
+# PowerShell transient files
+*.ps1xml.bak
